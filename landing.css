@@ -1,4 +1,4 @@
-/* Reset and base styles */
+
 * {
     margin: 0;
     padding: 0;
@@ -12,7 +12,6 @@ body {
     background-color: #f9f5f0;
 }
 
-/* Header styles */
 header {
     background-color: #4a2c12;
     color: white;
@@ -46,7 +45,6 @@ nav ul li a:hover {
     color: #d4a762;
 }
 
-/* Section styles */
 section {
     min-height: 100vh;
     padding: 6rem 2rem 4rem;
@@ -118,7 +116,6 @@ p {
     box-shadow: 0 5px 15px rgba(0,0,0,0.2);
 }
 
-/* Products section */
 .products-container {
     display: flex;
     flex-wrap: wrap;
@@ -163,7 +160,6 @@ p {
     margin-bottom: 1rem;
 }
 
-/* About section */
 .about-content {
     display: flex;
     align-items: center;
@@ -182,7 +178,6 @@ p {
     text-align: left;
 }
 
-/* Contact section */
 .contact-container {
     display: flex;
     justify-content: center;
@@ -210,31 +205,7 @@ p {
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
 
-.form-group {
-    margin-bottom: 1.5rem;
-    text-align: left;
-}
 
-.form-group label {
-    display: block;
-    margin-bottom: 0.5rem;
-    font-weight: bold;
-}
-
-.form-group input,
-.form-group textarea {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    font-size: 1rem;
-}
-
-.form-group textarea {
-    height: 120px;
-}
-
-/* Footer styles */
 footer {
     background-color: #4a2c12;
     color: white;
