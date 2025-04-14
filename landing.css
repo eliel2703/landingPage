@@ -56,7 +56,7 @@ section {
 }
 
 #secao1 {
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1445116572660-236099ec97a0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.adsttc.com/media/images/5213/7099/e8e4/4e20/3000/0277/medium_jpg/Code_Black04.jpg?1377005714');
     background-size: cover;
     background-position: center;
     color: white;
@@ -197,14 +197,6 @@ p {
     width: 20px;
 }
 
-.contact-form {
-    width: 60%;
-    background: white;
-    padding: 2rem;
-    border-radius: 10px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-}
-
 
 footer {
     background-color: #4a2c12;
@@ -226,40 +218,4 @@ footer {
 
 .social-icons a:hover {
     color: #d4a762;
-}
-
-/* Responsive adjustments */
-@media (max-width: 768px) {
-    nav ul {
-        flex-direction: column;
-        align-items: center;
-    }
-    
-    nav ul li {
-        margin: 5px 0;
-    }
-    
-    h1 {
-        font-size: 2.2rem;
-    }
-    
-    h2 {
-        font-size: 1.8rem;
-    }
-
-    .about-content {
-        flex-direction: column;
-    }
-
-    .about-img, .about-text {
-        width: 100%;
-    }
-
-    .contact-container {
-        flex-direction: column;
-    }
-
-    .contact-info, .contact-form {
-        width: 100%;
-    }
 }
