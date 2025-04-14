@@ -106,14 +106,7 @@ p {
     border-radius: 30px;
     text-decoration: none;
     font-weight: bold;
-    transition: all 0.3s;
     margin-top: 1rem;
-}
-
-.btn:hover {
-    background-color: #b38b4f;
-    transform: translateY(-3px);
-    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
 }
 
 .products-container {
@@ -130,11 +123,6 @@ p {
     overflow: hidden;
     width: 250px;
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-    transition: transform 0.3s;
-}
-
-.product-card:hover {
-    transform: translateY(-10px);
 }
 
 .product-img {
